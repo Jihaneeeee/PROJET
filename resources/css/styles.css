@@ -1,0 +1,52 @@
+.background-acceuil {
+    background-image: url('/images/backgr.jpg');
+    /* Remplacez 'votre-image.jpg' par le chemin de votre image d'arrière-plan */
+    background-size: cover;
+    /* Ajuste la taille de l'image pour couvrir toute la zone */
+    background-position: center;
+    /* Centre l'image horizontalement et verticalement */
+    min-height: 100vh;
+    /* Réglez la hauteur minimale de l'élément pour occuper 100% de la hauteur de la fenêtre */
+    color: orange;
+    /* Ajoutez l'effet de flou */
+    /*filter: blur(5px);
+    /*-webkit-filter: blur(5px);
+    /* Pour les navigateurs WebKit (Safari, Chrome, etc.) */
+}
+
+.titre-accueil {
+    text-align: left;
+    /* Centrer horizontalement */
+    position: absolute;
+    top: 80%;
+    /* Positionner à 50% de la hauteur de la page */
+    left: 38%;
+    /* Positionner à 50% de la largeur de la page */
+    transform: translate(-50%, -50%);
+    /* Centrer verticalement et horizontalement */
+    font-weight: bold;
+    /* Mettre le titre en gras */
+    color: #FF4500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Ajouter une ombre au texte pour le rendre plus lisible sur des arrière-plans clairs */
+    font-size: 60px;
+    white-space: nowrap;
+    /* Empêcher le texte de se retourner */
+}
+
+.nav-link {
+    font-size: 23px;
+    /* Augmentez la taille de la police selon vos préférences */
+    color: black;
+    font-weight: bold;
+    /* Mettre le titre en gras */
+    transition: color 0.3s ease;
+}
+
+.titre-accueil .orange-text {
+    color: orange;
+}
+
+.titre-accueil .white-text {
+    color: white;
+} 
